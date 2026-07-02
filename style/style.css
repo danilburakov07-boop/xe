@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-image: url(../img/backg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    padding: 25px 106px 25px 100px;
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/logo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -999999px;
+}
+
+h1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header ul{
+    width: 644px;
+}
+
+header ul a{
+    color: #3D3631;
+    font-size: 24px;
+    padding: 4px 0;
+}
+
+header ul li a.active{
+    border-bottom:2px solid #3D3631;
+}
+
+/* .navigation{
+    width: 831px;
+} */
+.navigation.flex{
+    gap: 47px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #303129;
+    font-size: 24px;
+    color: #FCFDF9;
+    border-radius: 12px;
+}
+video{
+    width: 500px;
+    height: 270px;
+    margin: 92px 100px 0 85px;
+}
+
+.text {
+    padding: 110px;
+}
+
+.text h2{
+    font-size: 35px;
+    margin-bottom: 34px;
+}
+
+.text p{
+    font-family: Poppins-Regular;
+    font-size: 25px;
+}
+
+.buttonori{
+    margin-left: 235px;
+    margin-bottom: 56px;
+    border-radius: 12px;
+    width: 302px;
+    height: 50px;
+}
