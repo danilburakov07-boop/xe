@@ -70,7 +70,7 @@ button{
     color: #FCFDF9;
     border-radius: 12px;
 }
-video{
+.diii video{
     width: 500px;
     height: 270px;
     margin: 92px 100px 0 85px;
@@ -96,4 +96,127 @@ video{
     border-radius: 12px;
     width: 302px;
     height: 50px;
+}
+
+.product{
+    padding: 0 100px;
+    margin: 110px 0;
+}
+
+.xazi{
+    width: 400px;
+    height: 1px;
+    background-color: #3D3631;
+}
+
+.product h2{
+    font-size: 32px;
+}
+
+.item{
+    text-align: center;
+    padding-bottom: 22px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px #303129;
+}
+
+.item:hover{
+    box-shadow: 1px 5px 8px #303129;
+}
+
+ .item h3{
+    margin-top: 21px;
+    margin-bottom: 33px;
+    font-size: 20px;
+ }
+
+ .item button{
+    font-size: 16px;
+    background-color: #303129;
+    color: #ffffff;
+ }
+
+ .items{
+    margin-top: 40px;
+ }
+
+ .pricelist{
+    padding: 50px 100px 54px;
+    margin: 110px 0;
+    background-image: url(../img/Rectangle\ 6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+ }
+
+ .pricelist h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+ }
+
+ table, th, td, tr{
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+ }
+
+ table{
+    width: 100%;
+ }
+
+ table th, td, tr{
+    width: 50%;
+    padding: 18px 26px;
+ }
+
+ .choise{
+    padding: 0 100px;
+    margin:110px 0 ;
+ }
+
+.videoaudio video{
+    width: 469px;
+    display: block;
+    margin-top: 20px;
+} 
+
+.choise section h3{
+    font-size: 32px;
+    margin-bottom: 19px;
+}
+
+.choise section li{
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.choise section ul{
+    margin-left: 30px;
+}
+
+footer{
+    padding: 25px 100px;
+    background-image: url(../img/Rectangle\ 6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.inst{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tel{
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+}
+
+.ufleba{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 40px 91px 40px 970px;
 }
